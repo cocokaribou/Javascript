@@ -114,7 +114,7 @@ console.log(text.charAt(0));
 console.log(`value: ${text}, type: ${typeof text}`);
 text = 1;
 console.log(`value: ${text}, type: ${typeof text}`);
-text = '7'+5;
+text = '7'+5; 
 console.log(`value: ${text}, type: ${typeof text}`);// 75, string
 text = '8'/'2';
 console.log(`value: ${text}, type: ${typeof text}`); // 4, number
@@ -125,3 +125,7 @@ console.log(text.charAt(0)); //type error
 //object, real-life object, data structure
 const ellie = {name: 'ellie', age: 20}; 
 ellie.age = 21;
+
+// Immutable data types: primitive types, frozen objects
+// Mutable data types: all objects by default are mutable in JS
+
